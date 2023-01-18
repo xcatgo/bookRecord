@@ -1,6 +1,6 @@
 # Table of contents
 
-* [im\_cat狗](README.md)
+* [im_cat狗](README.md)
 
 ## C++ Primer
 
