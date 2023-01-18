@@ -2,29 +2,30 @@
 
 ## 技术分享
 
-* [im_cat狗](README.md)
+* [im\_cat狗](README.md)
 
-## C++
-### C++ Primer
+## C++ Primer
+
 * [第一部分](C++/第一部分.md)
 
-### C++ 项目
+## C++ 项目
+
 * [C++ 项目笔记](<C++/C++ 项目笔记.md>)
 
-## LeetCode
-### 数组
+## 数组
 
 * [35-搜索插入位置](LeetCode/数组/35-搜索插入位置.md)
 * [704-二分查找](LeetCode/数组/704-二分查找.md)
 * [27-移除元素](LeetCode/数组/27-移除元素.md)
-* [26-删除排序数组中的重复项](LeetCode/数组/26-删除排序数组中的重复项.md)
+* [26-删除排序数组中的重复项](shu-zu/26-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang.md)
 * [977-有序数组的平方](LeetCode/数组/977-有序数组的平方.md)
 * [209-长度最小的子数组](LeetCode/数组/209-长度最小的子数组.md)
 * [904-水果成篮](LeetCode/数组/904-水果成篮.md)
-* [59-螺旋矩阵II](LeetCode/数组/59-螺旋矩阵ii.md)
+* [59-螺旋矩阵II](shu-zu/59-luo-xuan-ju-zhen-ii.md)
 * [54-螺旋矩阵](LeetCode/数组/54-螺旋矩阵.md)
 
-### 链表
+## 链表
+
 * [203-移除链表元素](LeetCode/链表/203-移除链表元素.md)
 * [707-设计链表](LeetCode/链表/707-设计链表.md)
 * [206-翻转链表](LeetCode/链表/206-翻转链表.md)
@@ -32,16 +33,19 @@
 * [19-删除链表的倒数第N个节点](LeetCode/链表/19-删除链表的倒数第n个节点.md)
 * [160-相交链表](LeetCode/链表/160-相交链表.md)
 * [142-环形链表](LeetCode/链表/142-环形链表.md)
-  
-### 哈希表
+
+## 哈希表
+
 * [242-有效的字母异位词](LeetCode/哈希表/242-有效的字母异位词.md)
 * [349-两个数组的交集](LeetCode/哈希表/349-两个数组的交集.md)
 * [202-快乐数](LeetCode/哈希表/202-快乐数.md)
 * [1-两数之和](LeetCode/哈希表/1-两数之和.md)
-* [454-四数相加II](LeetCode/哈希表/454-四数相加ii.md)
+* [454-四数相加II](ha-xi-biao/454-si-shu-xiang-jia-ii.md)
 
 ## 数学
-* [三角函数推导--欧拉公式的运用](数学\三角函数公式推导-欧拉公式的运用.md)
+
+* [三角函数推导--欧拉公式的运用](shu-xue/san-jiao-han-shu-tui-dao-ou-la-gong-shi-de-yun-yong.md)
 
 ## 读书
-* [《中国历代政治得失》整理](读书\《中国历代政治得失》整理.md)
+
+* [《中国历代政治得失》整理](du-shu/zhong-guo-li-dai-zheng-zhi-de-shi-zheng-li.md)
