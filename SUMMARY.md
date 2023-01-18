@@ -4,8 +4,8 @@
 
 ## C++ Primer
 
-* [ch2.变量和基本类型](C++Primer\note\ch2\2.5处理类型.md)
-* [ch3.字符串,向量和数组](C++Primer\note\ch3\3.字符串,向量和数组.md)
+* [ch2.变量和基本类型](C++Primer/note/ch2/2.5处理类型.md)
+* [ch3.字符串,向量和数组](C++Primer/note/ch3/3.字符串,向量和数组.md)
 * [ch4.表达式](C++Primer\note\ch4\4_表达式.md)
 * [ch5.语句](C++Primer\note\ch5\5_语句.md)
 * [ch6.函数](C++Primer\note\ch6\6_函数.md)
