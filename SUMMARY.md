@@ -15,11 +15,11 @@
   * [35-搜索插入位置](LeetCode/数组/35-搜索插入位置.md)
   * [704-二分查找](LeetCode/数组/704-二分查找.md)
   * [27-移除元素](LeetCode/数组/27-移除元素.md)
-  * [26-删除排序数组中的重复项](shu-zu/26-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang.md)
+  * [26-删除有序数组中的重复项](LeetCode/数组/26-删除有序数组中的重复项.md)
   * [977-有序数组的平方](LeetCode/数组/977-有序数组的平方.md)
   * [209-长度最小的子数组](LeetCode/数组/209-长度最小的子数组.md)
   * [904-水果成篮](LeetCode/数组/904-水果成篮.md)
-  * [59-螺旋矩阵II](shu-zu/59-luo-xuan-ju-zhen-ii.md)
+  * [59-螺旋矩阵II](LeetCode/数组/59-螺旋矩阵II.md)
   * [54-螺旋矩阵](LeetCode/数组/54-螺旋矩阵.md)
 
 * **链表**
@@ -36,7 +36,7 @@
   * [349-两个数组的交集](LeetCode/哈希表/349-两个数组的交集.md)
   * [202-快乐数](LeetCode/哈希表/202-快乐数.md)
   * [1-两数之和](LeetCode/哈希表/1-两数之和.md)
-  * [454-四数相加II](ha-xi-biao/454-si-shu-xiang-jia-ii.md)
+  * [454-四数相加II](LeetCode/哈希表/454-四数相加II.md)
 
 ## 数学
 
