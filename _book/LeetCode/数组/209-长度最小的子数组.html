@@ -1,0 +1,730 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>209-长度最小的子数组 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="904-水果成篮.html" />
+    
+    
+    <link rel="prev" href="977-有序数组的平方.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    im_cat狗
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">C++ Primer</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../C++/第一部分.html">
+            
+                <a href="../../C++/第一部分.html">
+            
+                    
+                    第一部分
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">C++ 项目</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../C++/C++ 项目笔记.html">
+            
+                <a href="../../C++/C++ 项目笔记.html">
+            
+                    
+                    C++ 项目笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">LeetCode</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                    数组
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="35-搜索插入位置.html">
+            
+                <a href="35-搜索插入位置.html">
+            
+                    
+                    35-搜索插入位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="704-二分查找.html">
+            
+                <a href="704-二分查找.html">
+            
+                    
+                    704-二分查找
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="27-移除元素.html">
+            
+                <a href="27-移除元素.html">
+            
+                    
+                    27-移除元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../../shu-zu/26-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang.md">
+            
+                <span>
+            
+                    
+                    26-删除排序数组中的重复项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="977-有序数组的平方.html">
+            
+                <a href="977-有序数组的平方.html">
+            
+                    
+                    977-有序数组的平方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.1.6" data-path="209-长度最小的子数组.html">
+            
+                <a href="209-长度最小的子数组.html">
+            
+                    
+                    209-长度最小的子数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="904-水果成篮.html">
+            
+                <a href="904-水果成篮.html">
+            
+                    
+                    904-水果成篮
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../../shu-zu/59-luo-xuan-ju-zhen-ii.md">
+            
+                <span>
+            
+                    
+                    59-螺旋矩阵II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9" data-path="54-螺旋矩阵.html">
+            
+                <a href="54-螺旋矩阵.html">
+            
+                    
+                    54-螺旋矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" >
+            
+                <span>
+            
+                    
+                    链表
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../链表/203-移除链表元素.html">
+            
+                <a href="../链表/203-移除链表元素.html">
+            
+                    
+                    203-移除链表元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../链表/707-设计链表.html">
+            
+                <a href="../链表/707-设计链表.html">
+            
+                    
+                    707-设计链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../链表/206-翻转链表.html">
+            
+                <a href="../链表/206-翻转链表.html">
+            
+                    
+                    206-翻转链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="../链表/24-两两交换链表中的节点.html">
+            
+                <a href="../链表/24-两两交换链表中的节点.html">
+            
+                    
+                    24-两两交换链表中的节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.5" data-path="../链表/19-删除链表的倒数第n个节点.html">
+            
+                <a href="../链表/19-删除链表的倒数第n个节点.html">
+            
+                    
+                    19-删除链表的倒数第N个节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.6" data-path="../链表/160-相交链表.html">
+            
+                <a href="../链表/160-相交链表.html">
+            
+                    
+                    160-相交链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.7" data-path="../链表/142-环形链表.html">
+            
+                <a href="../链表/142-环形链表.html">
+            
+                    
+                    142-环形链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" >
+            
+                <span>
+            
+                    
+                    哈希表
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.3.1" data-path="../哈希表/242-有效的字母异位词.html">
+            
+                <a href="../哈希表/242-有效的字母异位词.html">
+            
+                    
+                    242-有效的字母异位词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.2" data-path="../哈希表/349-两个数组的交集.html">
+            
+                <a href="../哈希表/349-两个数组的交集.html">
+            
+                    
+                    349-两个数组的交集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.3" data-path="../哈希表/202-快乐数.html">
+            
+                <a href="../哈希表/202-快乐数.html">
+            
+                    
+                    202-快乐数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.4" data-path="../哈希表/1-两数之和.html">
+            
+                <a href="../哈希表/1-两数之和.html">
+            
+                    
+                    1-两数之和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.5" data-path="../../ha-xi-biao/454-si-shu-xiang-jia-ii.html">
+            
+                <a href="../../ha-xi-biao/454-si-shu-xiang-jia-ii.html">
+            
+                    
+                    454-四数相加II
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">数学</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../数学/三角函数公式推导-欧拉公式的运用.html">
+            
+                <a href="../../数学/三角函数公式推导-欧拉公式的运用.html">
+            
+                    
+                    三角函数推导--欧拉公式的运用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">读书</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../读书/《中国历代政治得失》整理.html">
+            
+                <a href="../../读书/《中国历代政治得失》整理.html">
+            
+                    
+                    《中国历代政治得失》整理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >209-长度最小的子数组</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="209-&#x957F;&#x5EA6;&#x6700;&#x5C0F;&#x7684;&#x5B50;&#x6570;&#x7EC4;">209. &#x957F;&#x5EA6;&#x6700;&#x5C0F;&#x7684;&#x5B50;&#x6570;&#x7EC4;</h1>
+<p><a href="https://leetcode-cn.com/problems/minimum-size-subarray-sum/" target="_blank">LeetCode</a></p>
+<h2 id="&#x63CF;&#x8FF0;">&#x63CF;&#x8FF0;:</h2>
+<p>&#x7ED9;&#x5B9A;&#x4E00;&#x4E2A;&#x542B;&#x6709; n &#x4E2A;&#x6B63;&#x6574;&#x6570;&#x7684;&#x6570;&#x7EC4;&#x548C;&#x4E00;&#x4E2A;&#x6B63;&#x6574;&#x6570; target &#x3002;</p>
+<p>&#x627E;&#x51FA;&#x8BE5;&#x6570;&#x7EC4;&#x4E2D;&#x6EE1;&#x8DB3;&#x5176;&#x548C; &#x2265; target &#x7684;&#x957F;&#x5EA6;&#x6700;&#x5C0F;&#x7684; &#x8FDE;&#x7EED;&#x5B50;&#x6570;&#x7EC4; [numsl, numsl+1, ..., numsr-1, numsr] &#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x5176;&#x957F;&#x5EA6;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x5B58;&#x5728;&#x7B26;&#x5408;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#xFF0C;&#x8FD4;&#x56DE; 0 &#x3002;</p>
+<h2 id="&#x793A;&#x4F8B;">&#x793A;&#x4F8B;:</h2>
+<ul>
+<li><p>&#x793A;&#x4F8B; 1&#xFF1A;</p>
+<p>&#x8F93;&#x5165;&#xFF1A;target = 7, nums = [2,3,1,2,4,3]
+&#x8F93;&#x51FA;&#xFF1A;2
+&#x89E3;&#x91CA;&#xFF1A;&#x5B50;&#x6570;&#x7EC4; [4,3] &#x662F;&#x8BE5;&#x6761;&#x4EF6;&#x4E0B;&#x7684;&#x957F;&#x5EA6;&#x6700;&#x5C0F;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#x3002;</p>
+</li>
+</ul>
+<ul>
+<li><p>&#x793A;&#x4F8B; 2&#xFF1A;</p>
+<p>&#x8F93;&#x5165;&#xFF1A;target = 4, nums = [1,4,4]
+&#x8F93;&#x51FA;&#xFF1A;1</p>
+</li>
+</ul>
+<ul>
+<li><p>&#x793A;&#x4F8B; 3&#xFF1A;</p>
+<p>&#x8F93;&#x5165;&#xFF1A;target = 11, nums = [1,1,1,1,1,1,1,1]
+&#x8F93;&#x51FA;&#xFF1A;0</p>
+</li>
+</ul>
+<h2 id="&#x601D;&#x8DEF;">&#x601D;&#x8DEF;:</h2>
+<ul>
+<li><p>&#x6700;&#x7B80;&#x5355;&#x7684;&#x5C31;&#x662F;&#x66B4;&#x529B;&#x6CD5;, &#x901A;&#x8FC7;&#x904D;&#x5386;&#x6570;&#x7EC4;, &#x4EE5;&#x6BCF;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x7D22;&#x5F15;&#x503C;&#x4F5C;&#x4E3A;&#x521D;&#x59CB;&#x503C;, &#x518D;&#x6B21;&#x904D;&#x5386;, &#x83B7;&#x53D6;&#x7B26;&#x5408;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#x957F;&#x5EA6;, &#x5C06;&#x6700;&#x5C0F;&#x503C;&#x8FD4;&#x56DE;.</p>
+<blockquote>
+<p>LeetCode&#x5B98;&#x65B9;&#x7684;&#x89E3;&#x91CA;&#x8BF4;&#x7684;&#x6E05;&#x695A;&#x4E00;&#x4E9B;, &#x76F4;&#x63A5;&#x8D34;: &#x521D;&#x59CB;&#x5316;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x6700;&#x5C0F;&#x957F;&#x5EA6;&#x4E3A;&#x65E0;&#x7A77;&#x5927;&#xFF0C;&#x679A;&#x4E3E;&#x6570;&#x7EC4; \text{nums}nums &#x4E2D;&#x7684;&#x6BCF;&#x4E2A;&#x4E0B;&#x6807;&#x4F5C;&#x4E3A;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x5F00;&#x59CB;&#x4E0B;&#x6807;&#xFF0C;&#x5BF9;&#x4E8E;&#x6BCF;&#x4E2A;&#x5F00;&#x59CB;&#x4E0B;&#x6807; ii&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E; ii &#x7684;&#x6700;&#x5C0F;&#x4E0B;&#x6807; jj&#xFF0C;&#x4F7F;&#x5F97;&#x4ECE; \text{nums}[i]nums[i] &#x5230; \text{nums}[j]nums[j] &#x7684;&#x5143;&#x7D20;&#x548C;&#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E; ss&#xFF0C;&#x5E76;&#x66F4;&#x65B0;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x6700;&#x5C0F;&#x957F;&#x5EA6;&#xFF08;&#x6B64;&#x65F6;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x957F;&#x5EA6;&#x662F; j-i+1j&#x2212;i+1&#xFF09;</p>
+</blockquote>
+</li>
+<li><p>&#x66B4;&#x529B;&#x6CD5;&#x7684;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x662F;O(n^2^), &#x8FD9;&#x4E2A;&#x590D;&#x6742;&#x5EA6;&#x8BA9;&#x4EBA;&#x5F88;&#x4E0D;&#x6EE1;&#x610F;, &#x4F7F;&#x7528;&#x53CC;&#x6307;&#x9488;&#x6CD5;, &#x53EF;&#x4EE5;&#x5C06;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x964D;&#x5230;O(n).</p>
+</li>
+<li><p>&#x8FD9;&#x91CC;&#x4E5F;&#x4F7F;&#x7528;&#x5230;&#x4E86;&#x4E24;&#x4E2A;&#x7D22;&#x5F15;&#x4F5C;&#x4E3A;&#x6307;&#x9488;, &#x5177;&#x4F53;&#x7684;&#x64CD;&#x4F5C;&#x6BD4;&#x8F83;&#x50CF;&#x7A97;&#x53E3;&#x7684;&#x6ED1;&#x52A8;, &#x6240;&#x4EE5;&#x5728;&#x8FD9;&#x91CC;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x88AB;&#x79F0;&#x4E3A;<strong>&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x6CD5;</strong></p>
+</li>
+<li><p>&#x8FD9;&#x91CC;&#x7684;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x6CD5;, <strong>&#x901A;&#x8FC7;&#x4E0D;&#x65AD;&#x5730;&#x8C03;&#x89E3;&#x5B50;&#x5E8F;&#x5217;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;&#x548C;&#x7EC8;&#x6B62;&#x4F4D;&#x7F6E;, &#x4ECE;&#x800C;&#x5F97;&#x51FA;&#x60F3;&#x8981;&#x7684;&#x7ED3;&#x679C;.</strong></p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/imxlq/image-bed-2021@main/img/20210916214956.gif" alt=""></p>
+<h2 id="&#x4EE3;&#x7801;">&#x4EE3;&#x7801;:</h2>
+<pre><code class="lang-C++"><span class="hljs-comment">/*
+ * @lc app=leetcode.cn id=209 lang=cpp
+ *
+ * [209] &#x957F;&#x5EA6;&#x6700;&#x5C0F;&#x7684;&#x5B50;&#x6570;&#x7EC4;
+ */</span>
+
+<span class="hljs-comment">// @lc code=start</span>
+<span class="hljs-keyword">class</span> Solution
+{
+<span class="hljs-keyword">public</span>:
+  <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">minSubArrayLen</span><span class="hljs-params">(<span class="hljs-keyword">int</span> target, <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; &amp;nums)</span>
+  </span>{
+
+    <span class="hljs-keyword">int</span> result = __INT32_MAX__;
+    <span class="hljs-keyword">int</span> sum{<span class="hljs-number">0</span>};
+    <span class="hljs-keyword">int</span> i{<span class="hljs-number">0</span>};
+    <span class="hljs-keyword">int</span> length{<span class="hljs-number">0</span>};
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> j = <span class="hljs-number">0</span>; j &lt; nums.size(); j++)
+    {
+      sum += nums[j];
+
+      <span class="hljs-keyword">while</span> (sum &gt;= target)
+      {
+        length = j - i + <span class="hljs-number">1</span>;
+        result = result &lt; length ? result : length;
+        sum -= nums[i++];
+      }
+    }
+
+    <span class="hljs-keyword">return</span> result == __INT32_MAX__ ? <span class="hljs-number">0</span> : result;
+  }
+};
+</code></pre>
+<blockquote>
+<p>&#x590D;&#x6742;&#x5EA6;&#x5206;&#x6790;</p>
+<p>&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#xFF1A;O(n)&#xFF0C;&#x5176;&#x4E2D; nn &#x662F;&#x6570;&#x7EC4;&#x7684;&#x957F;&#x5EA6;&#x3002;&#x6307;&#x9488;start &#x548C;end &#x6700;&#x591A;&#x5404;&#x79FB;&#x52A8; n &#x6B21;&#x3002;</p>
+<p>&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#xFF1A;O(1)</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="977-有序数组的平方.html" class="navigation navigation-prev " aria-label="Previous page: 977-有序数组的平方">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="904-水果成篮.html" class="navigation navigation-next " aria-label="Next page: 904-水果成篮">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"209-长度最小的子数组","date":"2021-09-16T21:32:43.000Z","tags":["C++","数据结构与算法","LeetCode","双指针"],"categories":["学习","LeetCode","数组"],"level":"4.1.6","depth":2,"next":{"title":"904-水果成篮","level":"4.1.7","depth":2,"path":"LeetCode/数组/904-水果成篮.md","ref":"LeetCode/数组/904-水果成篮.md","articles":[]},"previous":{"title":"977-有序数组的平方","level":"4.1.5","depth":2,"path":"LeetCode/数组/977-有序数组的平方.md","ref":"LeetCode/数组/977-有序数组的平方.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"LeetCode/数组/209-长度最小的子数组.md","mtime":"2021-09-16T13:53:47.041Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-01-18T01:58:02.427Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
