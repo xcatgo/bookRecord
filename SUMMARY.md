@@ -3,12 +3,16 @@
 * [im_cat狗](README.md)
 
 ## C++ Primer
-
+### 第一部分 C++基础
 * [ch2.变量和基本类型](C++Primer/note/ch2/2.5处理类型.md)
 * [ch3.字符串,向量和数组](C++Primer/note/ch3/3.字符串,向量和数组.md)
 * [ch4.表达式](C++Primer/note/ch4/4_表达式.md)
 * [ch5.语句](C++Primer/note/ch5/5_语句.md)
 * [ch6.函数](C++Primer/note/ch6/6_函数.md)
+* [ch7.类](C++Primer/note/ch7/7_类.md)
+
+### 第二部分 C++标准库
+* [ch8.顺序容器](C++Primer/note/ch8/8_IO库.md)
 
 ## C++ 项目
 
