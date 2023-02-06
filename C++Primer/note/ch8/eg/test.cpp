@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <deque>
 
 using namespace std;
 
@@ -13,6 +14,8 @@ int main(int argc, char const *argv[])
     ostringstream is(s);
     string a;
     ofstream o("test.txt");
+    deque<string> d;
+
     // is >> a;
     // cerr << is << endl;
 

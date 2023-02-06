@@ -12,7 +12,8 @@
   * [ch7.类](C++Primer/note/ch7/7_类.md)
 
 * 第二部分 C++标准库
-  * [ch8.顺序容器](C++Primer/note/ch8/8_IO库.md) 
+  * [ch8.IO库](C++Primer/note/ch8/8_IO库.md) 
+  * [ch9.顺序容器](C++Primer/note/ch9/9_顺序容器.md)
 
 ## LeetCode
 * **数组**
