@@ -14,6 +14,7 @@
 * 第二部分 C++标准库
   * [ch8.IO库](C++Primer/note/ch8/8_IO库.md) 
   * [ch9.顺序容器](C++Primer/note/ch9/9_顺序容器.md)
+  * [ch10.泛型算法](C++Primer/note/ch10/10_泛型算法.md)
 
 ## LeetCode
 * **数组**
