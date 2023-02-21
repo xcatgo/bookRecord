@@ -16,6 +16,12 @@
   * [ch9.顺序容器](C++Primer/note/ch9/9_顺序容器.md)
   * [ch10.泛型算法](C++Primer/note/ch10/10_泛型算法.md)
   * [ch11.关联容器](C++Primer/note/ch11/11_关联容器.md)
+  * [ch12.动态内存](C++Primer/note/ch12/12_动态内存.md)
+
+## C++相关
+* [const关键字](C++/const关键字.md)
+* **多线程**
+  * [多线程](C++/多线程/多线程.md)
 
 ## LeetCode
 * **数组**
